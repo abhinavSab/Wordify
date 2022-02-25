@@ -1,0 +1,58 @@
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 3rem;
+    display: flex;
+}
+.label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: Inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-weight:lighter
+}
+.input-form{
+   width: 700px; 
+   height: 30px;
+   margin-bottom: 1rem;
+   /* border-color: rgb(94, 93, 93); */
+   box-shadow: none;
+   outline: none;
+   border: 1px solid #ced4da;
+}
+
+.message{
+    height: 200px;
+
+}
+.readbio{
+    color: #fff;
+    border-width: 2px;
+    background: rgb(125, 56, 238);
+    font-size: 14px;
+    width: 7rem;
+    height: 2.5rem;
+    border-color: rgb(125, 56, 238);
+    border-radius: 6px;
+    font-family:Inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    margin-bottom: 1.5rem;
+}
+
+.contact-me{
+    margin-right: 3.5rem;
+}
+@media (max-width:1125px) {
+    .container{
+        display: block;
+    }
+    
+}
+@media (max-width:800px) {
+    .container{
+        width: 800px;
+    }
+    
+}
+
+
+

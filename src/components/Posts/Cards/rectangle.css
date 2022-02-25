@@ -1,0 +1,25 @@
+.post_box-rectangle{
+    width: 700px;
+    text-align: center;
+    height: 200px;
+    border: 1px solid rgb(129, 56, 56);
+    margin: 1rem 0rem;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+.post_box-rectangle:hover{
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 40%);
+    width: 720px;
+    height: 220px;
+    cursor: pointer;
+}
+.img-post-rectangle{
+    background: url("./../../../../public/Imgs/img2.jpg") ;
+    max-width: 100%;
+  
+    background-size: cover;
+  background-repeat: no-repeat;
+ 
+  height: 100px;
+     background-position: center; 
+}

@@ -1,0 +1,144 @@
+
+body{
+    background: url("../..//assets/bodybg.jpg") repeat;
+    /* font-family: "Inconsolata", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; */
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.9;
+    /* color: #6c757d; */
+}
+.header-width{
+    max-width: 1250px;
+ 
+    margin: 0 auto;
+    background: #fff;
+   
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 10%);
+}
+.navitems{
+    font-weight: 100;
+    color: rgba(0,0,0,.5);
+    font-family:Inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.navitems:hover{
+    color: black;
+}
+
+.top-bar{
+    position: relative;
+    background-color: #6610f2;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+
+}
+.hrtop{
+    padding: 2rem 0;
+}
+.btn{
+    color: white;
+    opacity: .5;
+    padding: 9px;
+    
+}
+.social-btn{
+    margin-left: 60px;
+}
+.btn:hover{
+    opacity:1 ;
+    cursor: pointer;
+}
+.input{
+  position: absolute;
+
+    min-height: 1px;
+  
+    flex: 0 0 25%;
+    /* max-width: 25%; */
+    right: 3rem;
+   
+    
+
+}
+ .input input{
+    position: relative;
+   width: 20rem; 
+   height: 2rem;
+   background: #510bc4;
+   
+   font-size: 1rem;
+   
+   
+   box-shadow: none;
+   padding: 4px 30px 4px 15px;
+   /* font-size: 16px; */
+  
+}
+.s-icon{
+    position: absolute;
+ right: 1.5rem;
+    top: 10px;
+    color: #fff;
+    
+
+}
+#searchbar{
+    border: none;
+    color: white;
+    font-family:Inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+#searchbar::placeholder{
+    
+        color: white;
+        
+        
+    
+      
+}
+
+.bottom-bar{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.logo-a{
+    color: black;
+    font-size: 5.625rem;
+    font-weight: 200;
+    
+    
+}
+
+
+
+.nav-items{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+
+
+   
+    }
+
+    .nav-item {
+        list-style: none;
+        padding-left: 1rem;
+    
+       
+    }
+    @media (max-width: 800px){
+      .top-bar{
+          
+         display: block;
+         height: 100px;
+      }
+      .header-width{
+          width: 800px;
+      }
+      
+  }
